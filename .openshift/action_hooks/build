@@ -26,7 +26,7 @@ mkdir -p $install_dir
 pushd ${install_dir} >/dev/null
 curl -s ${download_url} > dokuwiki-${install_version}.tar.gz
 tar --strip-components=1 -xzf dokuwiki-${install_version}.tar.gz
-rm -rf dokuwiki-${install_version}.tar.gz
+# rm -rf dokuwiki-${install_version}.tar.gz
 
 echo $install_version > ${OPENSHIFT_BUILD_DEPENDENCIES_DIR}.current_version
 popd >/dev/null
