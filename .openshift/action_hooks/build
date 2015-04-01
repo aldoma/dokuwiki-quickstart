@@ -6,7 +6,7 @@
 
 install_version="release_stable_2014_09_29d"
 
-download_url="https://codeload.github.com/splitbrain/dokuwiki/tar.gz/${install_version}"
+download_url="http://download.dokuwiki.org/out/dokuwiki-d5fa12f75deb388895901d1b799f72b2.tgz"
 
 # Download and install Dokuwiki
 
